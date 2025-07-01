@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+require('dotenv').config();
 const bcrypt = require("bcrypt")
 const { bodyParser, urlencoded } = require('body-parser');
 const users = require('./routes/users')
